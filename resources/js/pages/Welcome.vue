@@ -7,6 +7,7 @@ const options = [
     { label: 'Inertia', value: 'inertia' },
     { label: 'Vue', value: 'vue' },
     { label: 'TailwindCSS', value: 'tailwindcss' },
+    { label: 'Filament', value: 'filament' },
 ]
 
 const selectedOption = ref(options[0].value)
@@ -132,6 +133,14 @@ const contentData = {
             href: 'https://github.com/tailwindlabs/prettier-plugin-tailwindcss',
         },
     ],
+
+    filament: [
+        {
+            id: 'filament',
+            text: 'Filament 4.x',
+            href: 'https://filamentphp.com/',
+        }
+    ],
 }
 
 const getContentForOption = (option) => {
@@ -152,14 +161,15 @@ const getContentForOption = (option) => {
                         <div
                             class="flex-1 rounded-br-lg rounded-bl-lg bg-white p-6 pb-12 shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] lg:rounded-tl-lg lg:rounded-br-none lg:p-20"
                         >
-                            <h1 class="mb-1 font-medium">Starter kit for VILT</h1>
+                            <h1 class="mb-1 font-medium">Starter kit for VILT with Filament</h1>
 
                             <p class="mb-2 text-[13px] leading-[20px] text-[#706f6c]">
                                 We are happy to introduce you to the starter kit for
                                 <strong class="text-[#f53003]">Laravel</strong> with
                                 <strong class="text-[#f53003]">Inertia</strong> and
                                 <strong class="text-[#f53003]">Vue</strong> with
-                                <strong class="text-[#f53003]">TailwindCSS</strong>.
+                                <strong class="text-[#f53003]">TailwindCSS</strong>, including
+                                <strong class="text-[#f53003]">Filament</strong>.
                             </p>
 
                             <ul class="mb-4 flex flex-col lg:mb-6">
