@@ -28,6 +28,11 @@ Thumbs.db
 package-lock.json
 composer.lock
 
+# Filament
+public/css/filament/*
+public/js/filament/*
+public/fonts/filament/*
+
 # Sentry Config File
 .env.sentry-build-plugin
 
