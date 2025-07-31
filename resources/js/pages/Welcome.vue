@@ -272,6 +272,13 @@ const getContentForOption = (option) => {
                                 alt="Tailwind CSS"
                                 class="size-48 object-contain"
                             />
+
+                            <img
+                                v-if="selectedOption === 'filament'"
+                                src="/images/filament.webp"
+                                alt="Filament"
+                                class="size-48 object-contain"
+                            />                            
                         </div>
 
                         <div
