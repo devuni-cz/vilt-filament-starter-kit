@@ -6,7 +6,7 @@ import { ZiggyVue } from 'ziggy-js'
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers'
 import * as Sentry from '@sentry/vue'
 
-const appName = import.meta.env.VITE_APP_NAME || 'Vilt starter kit | Devuni'
+const appName = import.meta.env.VITE_APP_NAME || 'Vilt filament starter kit | Devuni'
 
 createServer(
     (page) =>
