@@ -278,6 +278,7 @@ const getContentForOption = (option) => {
                         <img
                             v-else-if="selectedOption === 'tailwindcss'"
                             src="/images/tailwindcss.webp"
+                            loading="lazy"
                             alt="Tailwind CSS"
                             class="size-48 object-contain"
                         />
