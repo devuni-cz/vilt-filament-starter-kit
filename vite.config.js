@@ -8,6 +8,7 @@ import { defineConfig } from 'vite'
 export default defineConfig(({ command, mode, isSsrBuild }) => ({
     resolve: {
         alias: {
+            '@': path.resolve(__dirname, 'resources/js'),
             'ziggy-js': path.resolve('vendor/tightenco/ziggy'),
         },
     },
